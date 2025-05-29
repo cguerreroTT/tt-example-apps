@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/57d183d0-e622-4102-b5e6-3facdfd7631f
 
 ### 1. Clone the GitHub repository
 ```bash
-git clone https://github.com/tenstorrent/tt-example-apps.git
+git clone https://github.com/cguerreroTT/tt-example-apps.git
 cd tt-example-apps/agent_apps/langchain_search_agent
 ```
 

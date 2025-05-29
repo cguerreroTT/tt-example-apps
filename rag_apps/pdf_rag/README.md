@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/3db8e3af-3d4b-4d4a-b0ec-32d86f2b5e6d
 
 ### 1. Clone the GitHub repository
 ```bash
-git clone https://github.com/tenstorrent/tt-example-apps.git
+git clone https://github.com/cguerreroTT/tt-example-apps.git
 cd tt-example-apps/rag_apps/pdf_rag
 ```
 

@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/face5ea9-0750-4c02-8cb4-35b39420425d
 
 ### 1. Clone the GitHub repository
 ```bash
-git clone https://github.com/tenstorrent/tt-example-apps.git
+git clone https://github.com/cguerreroTT/tt-example-apps.git
 cd tt-example-apps/agent_apps/investment_agent
 ```
 
