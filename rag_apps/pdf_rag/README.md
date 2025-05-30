@@ -32,7 +32,7 @@ streamlit run pdf_rag.py
 
 ## How it works
 
-- PDF file contents are loaded using **PyPDF2** and split into chunks.
+- PDF file contents are loaded using **PyPDF** and split into chunks.
 - Embeddings are created and stored using **Chroma**.
 - Relevant context is retrieved based on the user's query, then added to the LLM input message.
 - A request containing the input message and context is sent to the Tenstorrent instance, which runs the LLM inference.
