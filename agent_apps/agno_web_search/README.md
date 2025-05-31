@@ -1,6 +1,8 @@
 # 🔎 Web Search Agent
 This is a **Streamlit** app that uses an **Agno** agent to search the internet for queries using **DuckDuckGo**.  It demonstrates how to create a basic **Agno** agent with tool use.
 
+> If you hit rate limits with **DuckDuckGo** search, try another [search engine toolkit](https://docs.agno.com/tools/toolkits/toolkits) from Agno.
+
 This example requires an active Tenstorrent instance running on Koyeb.  To deploy your first service using Tenstorrent instances on Koyeb, refer to Koyeb's [tenstorrent-examples repository](https://github.com/koyeb/tenstorrent-examples).  
 
 > **_NOTE:_** Automatic tool calling must be enabled on the instance's vLLM server for this demo to work.  Please refer to [vLLM's Tool Calling docs](https://docs.vllm.ai/en/stable/features/tool_calling.html#automatic-function-calling) for the required flags.  One-click deploy models will have these flags enabled if the LLM supports tool calling. (i.e. Llama and Qwen models)
