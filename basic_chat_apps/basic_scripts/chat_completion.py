@@ -5,9 +5,6 @@ from openai import OpenAI
 tt_base_url = "https://<YOUR_DOMAIN_PREFIX>.koyeb.app/v1"
 model_id = "meta-llama/Llama-3.1-8B-Instruct"
 
-tt_base_url = "https://zestful-goldarina-tenstorrent1-027919e1.koyeb.app/v1"
-model_id = "meta-llama/Llama-3.2-3B-Instruct"
-
 client = OpenAI(api_key="null", base_url=tt_base_url)
 
 chat_completion = client.chat.completions.create(
